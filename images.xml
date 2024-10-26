@@ -1,0 +1,94 @@
+<gallery>
+    <image>
+        <url>images/img1.jpg</url>
+        <title> Claridge’s</title>
+        <description>London, U.K.</description>
+    </image>
+    <image>
+        <url>images/img2.jpg</url>
+        <title>La Mamounia</title>
+        <description> Marrakesh, Morocco</description>
+    </image>
+    <image>
+        <url>images/img3.jpg</url>
+        <title>Umaid  Palace </title>
+        <description> Jodphur, India</description>
+    </image>
+    <image>
+        <url>images/img4.jpg</url>
+        <title>Mysore Palace</title>
+        <description>Karnataka, India</description>
+    </image>
+    <image>
+        <url>images/img5.jpg</url>
+        <title>Rambagh Palace</title>
+        <description>Jodphur, India</description>
+    </image>
+    <image>
+        <url>images/img6.jpg</url>
+        <title>Le Bristol </title>
+        <description> Paris, France</description>
+    </image>
+    <image>
+        <url>images/img7.jpg</url>
+        <title> Lauterbrunnen</title>
+        <description>Switzerland.</description>
+    </image>
+    <image>
+        <url>images/img8.jpg</url>
+        <title> Salzburg</title>
+        <description> Austria</description>
+    </image>
+    <image>
+        <url>images/img9.jpg</url>
+        <title>Lake Bled</title>
+        <description>Slovenia</description>
+    </image>
+    <image>
+        <url>images/img10.jpg</url>
+        <title> Mittenwald</title>
+        <description>Germany.</description>
+    </image>
+    <image>
+        <url>images/img11.jpg</url>
+        <title>Lake Como</title>
+        <description>Switzerland</description>
+    </image>
+    <image>
+        <url>images/img12.jpg</url>
+        <title>Brač Island</title>
+        <description>Croatia</description>
+    </image>
+    <image>
+        <url>images/img13.jpg</url>
+        <title>The Great Wall of China.</title>
+        <description>Northern china.</description>
+    </image>
+    <image>
+        <url>images/img14.jpg</url>
+        <title> Ad Deir Monastery </title>
+        <description> Petra, Jordan.</description>
+    </image>
+    <image>
+        <url>images/img15.jpg</url>
+        <title>Machu Picchu</title>
+        <description>Cusco, Peru.</description>
+    </image>
+    <image>
+        <url>images/img16.jpg</url>
+        <title>Christ the Redeemer</title>
+        <description>Rio de Janeiro,Brazil.</description>
+    </image>
+    <image>
+        <url>images/img17.jpg</url>
+        <title>Roman Colosseum</title>
+        <description>Rome,Italy.</description>
+    </image>
+    <image>
+        <url>images/img18.jpg</url>
+        <title>The Taj Mahal</title>
+        <description> Agra, India.</description>
+    </image>
+   
+    <!-- Add more images as needed -->
+</gallery>

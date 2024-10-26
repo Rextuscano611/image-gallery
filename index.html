@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with AJAX Pagination</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Image Gallery</h1>
+        <div id="gallery">
+            <!-- Images will be loaded here via AJAX -->
+        </div>
+        <div class="pagination">
+            <a href="#" data-page="1" class="page-link">1</a>
+            <a href="#" data-page="2" class="page-link">2</a>
+            <a href="#" data-page="3" class="page-link">3</a>
+            <!-- Add more pagination links as needed -->
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            // Load the first page of images on page load
+            loadGallery(1);
+
+            // Handle pagination click
+            $(document).on('click', '.page-link', function(e) {
+                e.preventDefault();
+                var page = $(this).attr('data-page');
+                loadGallery(page);
+            });
+
+            function loadGallery(page) {
+                $.ajax({
+                    url: 'fetch_images.php',
+                    type: 'GET',
+                    data: { page: page },
+                    success: function(data) {
+                        $('#gallery').html(data);
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
